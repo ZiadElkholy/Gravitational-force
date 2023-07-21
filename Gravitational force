@@ -1,0 +1,7 @@
+print("Hello Dear Enter your data to calculate Gravity Force")
+G=float(input("Please Enterf G value: "))
+M=float(input("Please Enterf M value: "))
+m=float(input("Please Enterf m value: "))
+r=float(input("Please Enterf r value: "))
+result= float ((G*M*m)/(r*r))
+print("Gravity Force = ", result)
